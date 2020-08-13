@@ -13,9 +13,9 @@ h1{
     transform: translate(-50%);
     width: 650px;
     height: 600px;
-    background: rgb(61, 138, 254);
+    background: rgb(58, 57, 57);
     border: 1px solid black;
-    box-shadow: 5px 5px rgba(0, 0, 0, 0.441);
+    box-shadow: 5px 5px rgba(94, 144, 209, 0.441);
     padding: 1.5rem;
 }
 
@@ -23,10 +23,18 @@ h1{
     width: 90px;
     height: 90px;
     background: white; 
-    border: 1px solid gold;
+    border: 1px solid ;
     border-radius: 50%;
 }
 
 .restart{
-    position: absolute;
+    font-family: cursive;
+    position: relative;
+    top: 95vh;
+    left: 50%;
+    transform: translate(-50%);
+    border: 1pc solid black;
+    width: 5rem;
+    text-align: center;
+    cursor: pointer;
 }
