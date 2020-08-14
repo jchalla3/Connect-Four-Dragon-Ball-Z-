@@ -3,9 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 h1{
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    color: blue;
 }
+h3{
+    text-align: center ;
+}
+body{
+    background-image: url(https://i.imgur.com/xQuidHy.png);
+    } 
+
 .game{
     position: absolute;
     top: 4rem;
@@ -13,13 +23,15 @@ h1{
     transform: translate(-50%);
     width: 650px;
     height: 600px;
-    background: rgb(58, 57, 57);
+    background-color: red;
     border: 1px solid black;
     box-shadow: 5px 5px rgba(94, 144, 209, 0.441);
     padding: 1.5rem;
+    text-align: center;
 }
 
 .spot{
+    background-size: 50%;
     width: 90px;
     height: 90px;
     background: white; 
@@ -28,12 +40,12 @@ h1{
 }
 
 .restart{
-    font-family: cursive;
+    font-family: Arial, Helvetica, sans-serif;
     position: relative;
     top: 95vh;
     left: 50%;
     transform: translate(-50%);
-    border: 1pc solid black;
+    border: 1pc solid white;
     width: 5rem;
     text-align: center;
     cursor: pointer;
