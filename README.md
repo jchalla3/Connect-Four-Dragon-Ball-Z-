@@ -1,6 +1,6 @@
 
 
-## Connect-four-project-1:
+## Connect Four-Dragon Ball Z! :
 You read it correctly, you'll be playing Connect Four!
 This is a two player game that will ask for the name of each player and keep track of turns
 player 1 is orange, player 2 is blue
